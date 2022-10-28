@@ -24,6 +24,7 @@ public class DataTeste {public static void main(String[] args) {
 	System.out.println(d2.obterDataFormatada());
 	
 	
+	System.out.println(Data.aniversario());
 	
 	
 	
