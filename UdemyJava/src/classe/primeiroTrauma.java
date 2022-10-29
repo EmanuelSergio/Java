@@ -14,7 +14,7 @@ public class primeiroTrauma {
 	
 	//menbro static n consegue acessar outras coisas a não ser por instanciamento
 		
-	
+		
 	
 }
 

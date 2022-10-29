@@ -6,9 +6,10 @@ public class Data {
 	
 	
 	Data(){
-	dia=1;
-	mes=1;
-	ano=1970;
+		//dia = 1;
+		//mes = 1;
+		//ano = 1970;
+		this(1, 1, 1970);
 		
 	}
 		
