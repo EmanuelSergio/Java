@@ -37,7 +37,11 @@ public class Data {
 	//ou :
 	
 	String obterDataFormatada() {
+		String formato = "%d/%d/%d";
 		return String.format("%d/%d/%d", dia, mes, ano);
 	}
+	
+	
+	
 	
 }
