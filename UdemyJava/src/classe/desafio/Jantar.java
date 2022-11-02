@@ -14,11 +14,25 @@ public class Jantar {
 		c1.nome="Feijao";
 		c1.peso=0.300;
 		
-		String peso = String.valueOf(p1.peso);
+		//String peso = String.valueOf(p1.peso);
 		
-		System.out.println(p1.nome.concat(peso));
+		
+		//System.out.println(p1.nome.concat(peso));
+		
+		System.out.println("Resposta Emanuel:");
+		
 		System.out.printf("O peso de %s antes de comer %s era %.2f e após comer é %.2f", p1.nome, c1.nome, p1.peso, p1.comer(c1.peso));
 		
+		
+		
+		
+		System.out.println("\nResposta prof:");
+		
+		System.out.println(p1.apresentar());
+
+		p1.comerprof(c1);
+		
+		System.out.println(p1.apresentar());
 		
 		
 		

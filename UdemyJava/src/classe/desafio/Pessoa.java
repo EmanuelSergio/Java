@@ -17,16 +17,25 @@ public class Pessoa {
 
 
 
-	 double comer(double peso) {
+	 void comerprof(Comida comida) {
 		
+		 if(comida != null) {
+			  this.peso += comida.peso;			 
+		 }
 		 
-		return this.peso + peso;
-		
-		
 		
 	}
 	
+	 double comer(double peso) {
+			
+		 
+			return this.peso + peso;
+			
+	 }
 	
+	 String apresentar() {
+		 return "Nome: " +nome +"KG: " +peso;
+	 }
 	
 	
 	

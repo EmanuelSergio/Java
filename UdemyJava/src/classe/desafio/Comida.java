@@ -9,5 +9,10 @@ public class Comida {
 		
 	}
 	
+	Comida(String nome, double peso){
+		this.nome=nome;
+		this.peso=peso;
+	}
+	
 	
 }
