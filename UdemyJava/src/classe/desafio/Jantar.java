@@ -23,7 +23,7 @@ public class Jantar {
 		
 		System.out.printf("O peso de %s antes de comer %s era %.2f e após comer é %.2f", p1.nome, c1.nome, p1.peso, p1.comer(c1.peso));
 		
-		
+		//ou
 		
 		
 		System.out.println("\nResposta prof:");
