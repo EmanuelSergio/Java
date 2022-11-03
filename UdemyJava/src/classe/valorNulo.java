@@ -1,12 +1,12 @@
 package classe;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class valorNulo {
 	
 	public static void main(String[] args) {
 		
-		Scanner leia = new Scanner(System.in);
+		//Scanner leia = new Scanner(System.in);
 		
 		
 		String s1 = "meu nome é ";
