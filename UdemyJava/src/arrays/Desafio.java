@@ -29,6 +29,10 @@ public class Desafio {
 			soma += nota;
 		}
 		System.out.println("media: " +soma/notas.length);
+		
+		
+		leia.close();
 	}
+	  
 	
 }
