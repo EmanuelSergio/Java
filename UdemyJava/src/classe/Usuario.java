@@ -22,6 +22,6 @@ public class Usuario {
 	
 	// o hascode sera abordade em outra aula
 	
-	
+	// OU pode ser gerado direto pelo eclipse: source
 	
 }
