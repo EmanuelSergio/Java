@@ -1,6 +1,6 @@
 package Colecoes;
 
-import java.util.Collections;
+//import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.SortedSet;
@@ -34,10 +34,12 @@ public class ConjuntoComportado {
 		Set<Integer> numeros = new HashSet<>();
 		
 		numeros.add(5);
-		numeros.add(88);
-		numeros.add(4);
+		numeros.add(5);
+		numeros.add(5);
 		numeros.add(9);
 		numeros.add(10);
+		
+		System.out.println(numeros);
 		
 		int zero = 0;
 		
