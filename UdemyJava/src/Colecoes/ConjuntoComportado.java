@@ -39,14 +39,14 @@ public class ConjuntoComportado {
 		numeros.add(9);
 		numeros.add(10);
 		
-		int maior = 0;
+		int zero = 0;
 		
 		for (Integer integer : numeros) {
-			if (integer > maior) {
-				integer=maior;
-				System.out.println("eu sou o maior: " +maior);
+			if (integer > zero) {
+				zero=integer;
+				System.out.println("eu sou o maior: " +zero);
 			}
-			System.out.println(integer);
+			//System.out.println(integer);
 		}
 		
 		
