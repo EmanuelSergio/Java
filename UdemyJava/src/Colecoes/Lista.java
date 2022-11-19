@@ -15,16 +15,18 @@ public class Lista {
 		
 		Usuario a1 = new Usuario("Emanuel");
 		
+		
 		lista.add(a1);		
 		lista.add(new Usuario("Carlos"));
 		lista.add(new Usuario("Bia"));
 		lista.add(new Usuario("Lia"));
 		lista.add(new Usuario("Manu"));
+		lista.add(new Usuario("Lia"));
 		
 		System.out.println(lista.get(1));
 		System.out.println("aqui: " +lista.get(3)); //acessar pelo indice
 		
-		
+		lista.remove(new Usuario("Lia"));
 		
 		System.out.println("\nremovido pelo indice: "+lista.remove(1));
 		System.out.println("Removido pelo nome " +lista.remove(new Usuario("Carlos"))+"\n");
