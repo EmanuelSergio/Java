@@ -39,6 +39,8 @@ public class ConjuntoComportado {
 		numeros.add(9);
 		numeros.add(10);
 		
+		//numeros.get(5); não é possivel acessar pelo indice
+		
 		System.out.println(numeros);
 		
 		int zero = 0;

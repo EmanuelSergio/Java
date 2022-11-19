@@ -10,7 +10,10 @@ public class Usuario {
 		this.nome=nome;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return "meu nome é: " +nome;
+	}
 	
 	@Override
 	public int hashCode() {
@@ -28,7 +31,10 @@ public class Usuario {
 		Usuario other = (Usuario) obj;
 		return Objects.equals(nome, other.nome);
 	}
+			
+
 	
 	
 	
 }
+
