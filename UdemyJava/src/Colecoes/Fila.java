@@ -26,12 +26,33 @@ public class Fila {
 		//o element vai causar um erro de a fila estiver vazia na execução
 		//o peek so vai retornar null
 		
+		System.out.println(fila.peek());//retorna false
 		System.out.println(fila.peek());
-		System.out.println(fila.peek());
-		System.out.println(fila.element().toUpperCase());
+		System.out.println(fila.element().toUpperCase()+"\n");//lança uma exceção
+		
+		//para exclusao de elementos da fila
+		
+		//fila.size() -> mostra a quantidade de itens
+		//fila.clear() -> deleta a fila inteira
+		//fila.isEmpty() -> diz se está vazia, se estiver retorna true
+		//fila.poll() -> quando chamado ele apaga o elemento e mostra no console, se já não ouver nada pra apagar, retorna null
+		
+		System.out.println(fila.isEmpty());
+		
+		System.out.println(fila.size());
+		
+		System.out.println("A fila contem ana? "+fila.contains("ana"));
 		
 		
 		
+		System.out.println(fila.poll()); //retorna null se estiver vazio
+		System.out.println(fila.poll());
+		System.out.println(fila.poll());
+		System.out.println(fila.poll());
+		System.out.println(fila.poll());
+		System.out.println(fila.poll());
+		System.out.println(fila.poll());
+		System.out.println(fila.remove());//retorna uma exceção se estiver vazio
 		
 		
 	}
