@@ -15,11 +15,23 @@ public class Usuario {
 		return "meu nome é: " +nome;
 	}
 	
-	@Override
+	/*@Override
 	public int hashCode() {
 		return Objects.hash(nome);
-	}
+	}*/
 
+	/*@Override
+	public int hashCode() {
+		return 1;//vai retornar pra todos 1, assim então, seguindo para o equals
+	}*/
+	
+	@Override
+	public int hashCode() {
+		return this.nome.length(); //está usando o tamanho do nome para o hashcode
+	}
+	
+	
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
