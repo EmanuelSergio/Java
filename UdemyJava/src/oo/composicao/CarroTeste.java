@@ -38,6 +38,9 @@ public static void main(String[] args) {
 		c.frear();
 		c.frear();
 		
+		//faltou encapsulamento
+		//c1.motor.fatorInjecao = -30
+		
 		
 		System.out.println(c.motor.giros());
 		
