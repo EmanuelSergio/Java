@@ -41,6 +41,9 @@ public static void main(String[] args) {
 		//faltou encapsulamento
 		//c1.motor.fatorInjecao = -30
 		
+		//relação bidirencional
+		System.out.println(c.motor.carro.motor.carro.motor.giros());
+		
 		
 		System.out.println(c.motor.giros());
 		
