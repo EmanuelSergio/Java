@@ -14,7 +14,8 @@ public class Compra {
 	}
 	
 	
-	 void adicionarItem(Item item) {
+	
+	void adicionarItem(Item item) {
 		this.itens.add(item);
 		item.compra=this;
 		
