@@ -33,9 +33,16 @@ public static void main(String[] args) {
 		
 	}
 	
-	System.out.println();
+	System.out.println(aluno2.cursos.get(0).alunos);
 	
-
+	Curso cursoEncontrado = aluno1.obterCursoPorNome("Java Completo");
+	
+	System.out.println("\nMetodo Curso: \n");
+	
+	if(cursoEncontrado !=null) {
+		System.out.println(cursoEncontrado.nome);
+		System.out.println(cursoEncontrado.alunos);
+	}
 	
 	
 	

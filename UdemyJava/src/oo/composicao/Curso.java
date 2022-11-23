@@ -17,5 +17,8 @@ public class Curso {
 		
 	}
 	
+	public String toString() {
+		return nome;
+	}
 
 }

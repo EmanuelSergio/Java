@@ -18,9 +18,20 @@ public class Aluno {
 		
 	}
 	
+	public String toString() {
+		return "nome: " +nome +" || curso matriculado: " +cursos;
+	}
 	
+	Curso obterCursoPorNome(String nome) {
+		for (Curso curso : this.cursos) {
+			if(curso.nome.equalsIgnoreCase(nome)) {
+				return curso;
+			}
+		}
+		return null;
+	}
 	
-	
+
 	
 	
 }
