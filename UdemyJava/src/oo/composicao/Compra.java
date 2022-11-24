@@ -8,10 +8,10 @@ public class Compra {
 	
 	ArrayList<Item> itens = new ArrayList<Item>();
 	
-	void adicionarItem(String nome, int quantidade, double valor) {
+	/*void adicionarItem(String nome, int quantidade, double valor) {
 		this.adicionarItem(new Item(nome, quantidade, valor));
 		
-	}
+	}*/
 	
 	
 	
