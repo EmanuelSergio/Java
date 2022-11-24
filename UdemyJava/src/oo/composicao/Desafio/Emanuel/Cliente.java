@@ -14,6 +14,26 @@ public class Cliente {
 	}
 	
 	
+	void adicionarCompra(Compra compra) {
+		this.compras.add(compra);
+		
+		
+		
+	}
+	
+	
+	
+	
+	double somaTotal() {
+		
+		double tot =0;
+		
+		for (Compra compra : compras) {
+			tot+=compra.somaTotal();
+		}
+		
+	return tot;	
+	}
 	
 	
 	

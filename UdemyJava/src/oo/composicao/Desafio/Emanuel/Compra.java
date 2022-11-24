@@ -15,7 +15,21 @@ public class Compra {
 		this.itens.add(new Item(new Produto(nome, preco),quantidade));
 	}
 	
-	
+	double somaTotal() {
+		double tot = 0;
+		
+		for (Item item : itens) {
+			tot += item.quantidade*item.produto.preco;
+		}
+		
+		return tot;
+	}
+
+	@Override
+	public String toString() {
+		return "Compra [itens=" + itens + ", somaTotal()=" + somaTotal() + ", getClass()=" + getClass()
+				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+	}
 	
 	
 	
