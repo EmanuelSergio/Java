@@ -26,7 +26,6 @@ public class Sistema {
 		System.out.println("Soma de todas as compras: " +cliente1.somaTotal());
 		
 		
-	
 		
 	}
 
