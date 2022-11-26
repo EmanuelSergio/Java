@@ -2,23 +2,44 @@ package oo.heranca.desafio;
 
 public class Carro {
 
-	double velocidadeAtual;
+	double velocidadeAtual=0;
 	
 	
 	
-	double acelerar(Carro carro) {
-		return carro.velocidadeAtual+=5;
+	void acelerar(Carro carro) {
+		 carro.velocidadeAtual+=5;
+		
+	}
+	
+	void acelerar() {
+		 velocidadeAtual+=5;
 		
 	}
 	
 	double frear(Carro carro) {
 		
-		if(carro.velocidadeAtual>0) {
+		if(carro.velocidadeAtual>=5) {
 			return carro.velocidadeAtual-=5;
 		}else {
 			return 0;
 		}
 		
+	}
+
+	double frear() {
+		
+		if(velocidadeAtual>=5) {
+			return velocidadeAtual-=5;
+		}else {
+			return 0;
+		}
+		
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "A VELOCIDADE ATUAL É: " + velocidadeAtual + "KM/H";
 	}
 	
 	
