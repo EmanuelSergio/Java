@@ -4,8 +4,8 @@ public class Jogo {
 
 	public static void main(String[] args) {
 		
-		Jogador Monstro = new Monstro();
-		Jogador Heroi = new Heroi();
+		Jogador Monstro = new Monstro(15, 11);
+		Jogador Heroi = new Heroi(10, 11);
 		
 		
 		

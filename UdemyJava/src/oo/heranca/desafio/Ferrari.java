@@ -9,11 +9,22 @@ public class Ferrari extends Carro{
 		return c1 + c2;
 	}*/
 	
-	void acelerar() {
+	Ferrari(){
+		this(315);
+	}
+	
+	Ferrari(int velocidadeMaximaFerrari){
+		super(velocidadeMaximaFerrari);
+		delta = 350;
+	}
+	
+	
+	
+/*	void acelerar() {
 
 		velocidadeAtual += 15;
 	}
-	
+	*/
 	
 	
 }

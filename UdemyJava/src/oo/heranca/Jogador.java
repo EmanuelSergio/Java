@@ -7,6 +7,12 @@ public class Jogador {
 	int y;
 	
 	
+	Jogador(int x, int y){
+		this.x=x;
+		this.y=y;
+		
+	}
+	
 	boolean andar(Direcao direcao) {
 		
 		switch(direcao) {

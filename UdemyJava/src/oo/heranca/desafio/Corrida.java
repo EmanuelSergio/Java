@@ -4,7 +4,7 @@ public class Corrida {
 
 	public static void main(String[] args) {
 		
-		Carro c1 = new Ferrari();
+		Carro c1 = new Ferrari(100);
 		Carro c2 = new Civic();
 		
 		
