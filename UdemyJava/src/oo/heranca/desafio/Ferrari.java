@@ -20,11 +20,12 @@ public class Ferrari extends Carro{
 	
 	
 	
-/*	void acelerar() {
+	/*void acelerar() {
 
-		velocidadeAtual += 15;
+		super.acelerar();
 	}
 	*/
+	
 	
 	
 }
