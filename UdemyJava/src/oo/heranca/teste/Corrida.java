@@ -25,7 +25,7 @@ public class Corrida {
 		System.out.println(c1);
 		System.out.println(c2);
 		
-		
+		System.out.println(c1.velocidadeDoAr());
 		
 	}
 	
