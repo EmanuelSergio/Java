@@ -17,7 +17,6 @@ public class Paulo {
 		System.out.println(esposa.formaDeFalar);
 		System.out.println(esposa.todosSabem);
 		
-		
 	}
 	
 	

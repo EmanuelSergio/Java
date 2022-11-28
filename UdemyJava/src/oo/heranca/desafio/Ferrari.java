@@ -11,11 +11,11 @@ public class Ferrari extends Carro{
 	
 	
 
-	Ferrari(){
+	public Ferrari(){
 		this(315);
 	}
 	
-	Ferrari(int velocidadeMaximaFerrari){
+	public Ferrari(int velocidadeMaximaFerrari){
 		super(velocidadeMaximaFerrari);
 		delta = 350;
 	}
