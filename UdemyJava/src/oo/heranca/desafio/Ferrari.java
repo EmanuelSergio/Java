@@ -1,6 +1,6 @@
 package oo.heranca.desafio;
 
-public class Ferrari extends Carro implements Esportivo{
+public class Ferrari extends Carro implements Esportivo, Luxo{
 
 	/*void acelerar(Carro carro) {
 		double c1 = super.acelerar(carro);
@@ -8,8 +8,8 @@ public class Ferrari extends Carro implements Esportivo{
 		
 		return c1 + c2;
 	}*/
-	
-	
+	private boolean ligarTurbo;
+	private boolean ligarAr;
 
 	public Ferrari(){
 		this(315);
@@ -17,19 +17,32 @@ public class Ferrari extends Carro implements Esportivo{
 	
 	public Ferrari(int velocidadeMaximaFerrari){
 		super(velocidadeMaximaFerrari);
-		delta = 15;
+		if(ligarTurbo==true) {
+			setDelta(35);
+		}else {
+			setDelta(15);
+		}
 	}
 	
 	@Override
 	public void ligarTurbo() {
-		delta=35;
+		ligarTurbo=true;
 	}
 	
 	@Override
 	public void desligarTurbo() {
-		delta=15;
+		ligarTurbo=false;
 	}
 
+	@Override
+	public void ligarAr() {
+		ligarAr=true;
+	}
+
+	@Override
+	public void desligarAr() {
+		ligarAr=false;
+	}
 	
 	/*void acelerar() {
 
