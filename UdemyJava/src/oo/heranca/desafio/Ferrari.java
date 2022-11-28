@@ -8,8 +8,8 @@ public class Ferrari extends Carro implements Esportivo, Luxo{
 		
 		return c1 + c2;
 	}*/
-	private boolean ligarTurbo;
-	private boolean ligarAr;
+	private boolean ligarTurbo=false;
+	private boolean ligarAr=false;
 
 	public Ferrari(){
 		this(315);
@@ -17,11 +17,7 @@ public class Ferrari extends Carro implements Esportivo, Luxo{
 	
 	public Ferrari(int velocidadeMaximaFerrari){
 		super(velocidadeMaximaFerrari);
-		if(ligarTurbo==true) {
-			setDelta(35);
-		}else {
-			setDelta(15);
-		}
+		setDelta(15);
 	}
 	
 	@Override
@@ -43,6 +39,21 @@ public class Ferrari extends Carro implements Esportivo, Luxo{
 	public void desligarAr() {
 		ligarAr=false;
 	}
+	
+	@Override
+	public int getDelta() {
+		if(ligarTurbo&& !ligarAr) {
+			return 35;
+		}else if(ligarAr && ligarTurbo) {
+			return 30;
+		}else if(!ligarAr && !ligarTurbo) {
+			return 20;
+		}else {
+			return 15;
+		}
+	}
+	
+	
 	
 	/*void acelerar() {
 

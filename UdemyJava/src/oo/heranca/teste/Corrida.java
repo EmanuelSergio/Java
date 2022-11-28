@@ -11,15 +11,16 @@ public class Corrida {
 		Ferrari c1 = new Ferrari(400);
 		Carro c2 = new Civic();
 		
-		
-		c1.acelerar();
-		c2.acelerar();
-		c1.acelerar();
-		c2.acelerar();
-		c1.acelerar();
-		c2.acelerar();
-		
+		c1.ligarAr();
 		c1.ligarTurbo();
+		
+		c1.acelerar();
+		c2.acelerar();
+		c1.acelerar();
+		c2.acelerar();
+		c1.acelerar();
+		c2.acelerar();
+		
 		
 		System.out.println(c1);
 		System.out.println(c2);
