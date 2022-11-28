@@ -14,8 +14,10 @@ public class Jantar {
 		convidado.comer(ingrediente2);
 		convidado.comer(sobremesa);
 		
-		System.out.println(convidado.getPeso());
+		Comida ingrediente3 = new Arroz(0.3);
+		convidado.comer(ingrediente3);
 		
+		System.out.println(convidado.getPeso());
 		
 		
 	}

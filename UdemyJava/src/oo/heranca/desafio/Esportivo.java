@@ -2,7 +2,7 @@ package oo.heranca.desafio;
 
 public interface Esportivo {
 
-	void ligarTurbo();
+	public abstract void ligarTurbo();
 	void desligarTurbo();
 	
 }
