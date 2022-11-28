@@ -4,18 +4,35 @@ public class Pessoa {
 
 	private int idade;
 	private String nome;
+	private String sobreNome;
 	
-	public Pessoa(String nome,int idade){
+	public Pessoa(String nome, String sobreNome, int idade){
 		setIdade(idade);
 		setNome(nome);
+		setSobreNome(sobreNome);
 	}
 	
+	
+	public String getSobreNome() {
+		return sobreNome;
+	}
+
+
+	public void setSobreNome(String sobreNome) {
+		this.sobreNome = sobreNome;
+	}
+
+
 	public String getNome() {
 		return nome;
 	}
 
 	public void setNome(String nome) {
 		this.nome = nome;
+	}
+	
+	public String getNomeCompleto() {
+		return getNome() +" " +getSobreNome();
 	}
 	
 	//Getter

@@ -3,7 +3,7 @@ package oo.encapsulamento;
 public class PessoaTeste {
 	public static void main(String[] args) {
 		
-		Pessoa p1 = new Pessoa("Pedro" ,30);
+		Pessoa p1 = new Pessoa("Pedro", "Amoedo" ,30);
 		
 		//p1.idade = -30;//alterar valor da varivael
 		
@@ -14,7 +14,7 @@ public class PessoaTeste {
 		
 		System.out.println(p1);//toString
 		
-		
+		System.out.println(p1.getNomeCompleto());
 		
 		
 		
