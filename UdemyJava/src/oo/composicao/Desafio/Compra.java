@@ -16,6 +16,7 @@ public class Compra {
 	}
 	
 	void adicionarItem(String nome, double preco, int quantidade) {
+		@SuppressWarnings("unused")
 		var produto = new Produto(nome, preco);
 		//ou this.itens.add(new Item(produto, quantidade));
 		this.itens.add(new Item(new Produto(nome, preco), quantidade));
