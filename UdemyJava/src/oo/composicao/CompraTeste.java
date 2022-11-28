@@ -18,8 +18,8 @@ public class CompraTeste {
 		
 		System.out.println(compra1.itens.get(0).compra.itens.get(1).compra.obterValorTotal());
 		
-		System.out.println("OLA QUE TAL AMIGOS");
-		System.out.println("me mama");
+	
+
 		
 		
 		
