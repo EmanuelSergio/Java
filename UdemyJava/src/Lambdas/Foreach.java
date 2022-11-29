@@ -33,6 +33,11 @@ public class Foreach {
 		System.out.println("\nMethod Reference #02...");
 		aprovados.forEach(Foreach::meuImprimir);
 		
+		
+		
+		
+		
+		
 	}
 	
 	static void  meuImprimir(String nome) {
