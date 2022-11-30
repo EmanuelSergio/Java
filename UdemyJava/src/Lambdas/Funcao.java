@@ -37,7 +37,7 @@ public class Funcao {
 		
 		System.out.println(resultadoFinal.toLowerCase());
 		
-		
+		 
 		
 		
 		

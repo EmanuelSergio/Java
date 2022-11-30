@@ -32,5 +32,6 @@ public static void main(String[] args) {
 	System.out.println(media.andThen(conceito).apply(5.0, 9.5));
 		
 	
+	
 }
 }

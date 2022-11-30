@@ -13,7 +13,7 @@ public static void main(String[] args) {
 	
 	System.out.println(calc.legal());
 	System.out.println(Calculo.massa());
-	
+	 
 	
 }
 }
