@@ -19,12 +19,17 @@ public class Funcao {
 		
 		Function<String, String> empolgado = valor -> valor+"!!!";
 		
-		Function<String, String> oResultadoE = valor -> "O resulta é: " +valor;
-		
-		String resultadoFinal = parOuImpar.andThen(oResultadoE).andThen(empolgado).apply(b);
-		
 		Function <Integer, String> elevado = 
 				numero -> ""+ numero*numero;
+				
+		Function<String, String> oResultadoE = valor -> "O resulta é: " +valor;
+		
+
+				
+		String resultadoFinal = parOuImpar
+				.andThen(oResultadoE)
+				.andThen(empolgado)
+				.apply(b);
 		
 		String result = elevado.andThen(oResultadoE).apply(5);
 				
