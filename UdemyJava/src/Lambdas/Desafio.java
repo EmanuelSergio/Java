@@ -1,6 +1,7 @@
 package Lambdas;
 
 import java.util.function.Function;
+import java.util.function.UnaryOperator;
 
 public class Desafio {
 public static void main(String[] args) {
@@ -27,13 +28,14 @@ public static void main(String[] args) {
 	
 	Function<Produto, Double> valor = n -> n.preco *(1.0-n.desconto);
 	
-	System.out.println(valor.apply(p));
+	
+	UnaryOperator<Double> impostoMunicipal = n -> n>=2500 ? n+(n*0.085):n;
+	
+	/*BiFunction<Double, Double, String> resultado = 
+			(n1, n2) -> ((n1+n2)/2) >= 7 ?"Aprovado":"Reprovado";*/
 	
 	
-	
-	
-	
-	
+	System.out.println(valor.andThen(impostoMunicipal).apply(p));
 	
 	
 	
