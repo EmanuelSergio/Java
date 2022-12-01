@@ -6,7 +6,7 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
-public class Desafio {
+public class DesafioFilter {
 
 	public static void main(String[] args) {
 		
@@ -36,11 +36,12 @@ public class Desafio {
 		.map(indice)
 		.forEach(print);
 		
+		
 		System.out.println("===================================");
 		
 		carro.stream().map(indice).forEach(print);
 		
-		
+		 
 		
 	}
 	
