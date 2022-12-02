@@ -25,7 +25,7 @@ public class DesafioMap {
 		 
 		UnaryOperator<String> inverter = n -> new StringBuilder(n).reverse().toString();
 		
-		Function<String, Integer> binarioParaInt = n -> Integer.parseInt(n,2);
+		Function <String, Integer> binarioParaInt = n -> Integer.parseInt(n,2);
 		
 		nums.stream()
 		.map(binario)
