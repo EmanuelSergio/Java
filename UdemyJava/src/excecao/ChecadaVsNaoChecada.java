@@ -24,6 +24,16 @@ public static void main(String[] args) {
 	System.out.println("FIM");
 	
 }
+
+
+
+
+//=======================================================//
+
+
+
+
+
 //excecao nao checada ou nao verificada
 static void geraErro1() {
 	throw new RuntimeException("Ocorreu um erro bem legal #01!!");
