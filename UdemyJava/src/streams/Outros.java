@@ -2,6 +2,7 @@ package streams;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 public class Outros {
 
@@ -40,6 +41,8 @@ public class Outros {
 		.skip(2)
 		.takeWhile(a->a.nota >= 7)
 		.forEach(System.out::println);//coloca requisitos(continua ate encontrar alguem q nao foi aprovado)
+		
+		
 		
 	}
 	
