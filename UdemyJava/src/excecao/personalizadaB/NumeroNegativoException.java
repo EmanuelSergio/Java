@@ -1,4 +1,4 @@
-package excecao.personalizadaA;
+package excecao.personalizadaB;
 
 @SuppressWarnings("serial")
 public class NumeroNegativoException extends RuntimeException{

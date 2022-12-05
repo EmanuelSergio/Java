@@ -1,7 +1,7 @@
-package excecao.personalizadaA;
+package excecao.personalizadaB;
 
 @SuppressWarnings("serial")
-public class NumeroForaIntervaloException extends Exception{
+public class NumeroForaIntervaloException extends RuntimeException{
 	
 	private String nomeDoAtributo;
 	
