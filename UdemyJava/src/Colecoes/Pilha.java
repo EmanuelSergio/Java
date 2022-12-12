@@ -28,7 +28,7 @@ public class Pilha {
 			
 		}
 		
-		for(String livro: livros) {
+		for(@SuppressWarnings("unused") String livro: livros) {
 			System.out.println("=="+livros+"==");
 		}
 		
