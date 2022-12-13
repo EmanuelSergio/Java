@@ -19,13 +19,12 @@ public class Basico {
 		}
 		
 		
-		try {
+		/*try {
 			System.out.println(7/0);
 		} catch (ArithmeticException e) {
 			System.out.println("ocorreu o erro: " +e.getMessage());
 		}
-			 
-		
+*/		
 		
 		
 		
