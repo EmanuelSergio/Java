@@ -26,7 +26,6 @@ public class Basico {
 		}
 */		
 		
-		Pillha pilha;
 		
 		
 		System.out.println("Fim");
