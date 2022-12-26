@@ -13,7 +13,11 @@ public class ListaUtil {
 	public static <T> T getUltimo2(List<T> lista) {
 		return lista.get(lista.size()-1);
 	}
-	
+	//podemos ter mais de um parametro generico:
+	public static <A, B, C> C teste(A paramA, B paramB) {
+		C teste = null;
+		return teste;
+	}
 	
 	
 	
