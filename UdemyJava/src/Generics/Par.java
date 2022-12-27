@@ -36,6 +36,7 @@ public class Par<C, V> {
 
 
 
+	
 	@Override
 	public int hashCode() {
 		return Objects.hash(chave);

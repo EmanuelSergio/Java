@@ -1,11 +1,12 @@
 package Generics;
 
-import java.util.SortedSet;
-import java.util.TreeSet;
+import java.util.LinkedHashSet;
+import java.util.Optional;
+import java.util.Set;
 
 public class Pares<C extends Number, V> {
 
-	private final  SortedSet<Par<C, V>> itens = new TreeSet<>();
+	private final  Set<Par<C, V>> itens = new LinkedHashSet<Par<C, V>>();
 	
 	public void adicionar(C chave , V valor) {
 		if(chave == null) return;//se ele tentar adicionar um valor a chave null, ele vai apenas sair do metodo com o return
@@ -19,6 +20,14 @@ public class Pares<C extends Number, V> {
 		itens.add(novoPar);
 	}
 	
-	
+	public V getValor(C chave) {
+		if(chave == null) return null;
+		
+		Optional <Par<C, V>> parOpcional = itens.stream()
+				.filter(p-> chave.equals(p.getChave())).findFirst();
+		
+		return parOpcional.isPresent( ) ? parOpcional.get().getValor() : null;
+		
+	}
 	
 }
