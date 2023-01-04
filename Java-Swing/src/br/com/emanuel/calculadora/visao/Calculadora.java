@@ -1,7 +1,7 @@
 package br.com.emanuel.calculadora.visao;
 
 import java.awt.BorderLayout;
-import java.awt.DisplayMode;
+import java.awt.Dimension;
 
 import javax.swing.JFrame;
 
@@ -12,7 +12,10 @@ public class Calculadora extends JFrame {
 		
 		organizarLayout();
 		
+		
+		
 		setSize(242,332);//define o tamanho da tela quando a aplicacao inicia
+		//setUndecorated(true);tira a barrinha de fechar 
 		setDefaultCloseOperation(DISPOSE_ON_CLOSE);//vai finalizar a aplicacao apos fexar a tela
 		setLocationRelativeTo(null);//faz a janela iniciar no meio da tela
 		setVisible(true);//quando iniciar a aplicacao, ja aparece uma tela
@@ -20,13 +23,16 @@ public class Calculadora extends JFrame {
 	
 	private void organizarLayout() {
 
+		
+		
 		setLayout(new BorderLayout());
 		
 		Display display = new Display();
-		add(display);
+		display.setPreferredSize(new Dimension(233,60));
+		add(display, BorderLayout.NORTH);
 		
 		Teclado teclado = new Teclado();
-		add(teclado);
+		add(teclado, BorderLayout.CENTER);
 		
 		
 	}
