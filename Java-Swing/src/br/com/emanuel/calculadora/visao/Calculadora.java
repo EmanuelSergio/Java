@@ -15,7 +15,7 @@ public class Calculadora extends JFrame {
 		
 		
 		setSize(242,332);//define o tamanho da tela quando a aplicacao inicia
-		//setUndecorated(true);tira a barrinha de fechar 
+		//setUndecorated(true);//tira a barrinha de fechar 
 		setDefaultCloseOperation(DISPOSE_ON_CLOSE);//vai finalizar a aplicacao apos fexar a tela
 		setLocationRelativeTo(null);//faz a janela iniciar no meio da tela
 		setVisible(true);//quando iniciar a aplicacao, ja aparece uma tela
@@ -30,6 +30,8 @@ public class Calculadora extends JFrame {
 		Display display = new Display();
 		display.setPreferredSize(new Dimension(233,60));
 		add(display, BorderLayout.NORTH);
+		
+		
 		
 		Teclado teclado = new Teclado();
 		add(teclado, BorderLayout.CENTER);
