@@ -12,6 +12,9 @@ public class ConjuntoBaguncado {
 		
 		//está convertendo do tipo primitivo para  classes
 		
+		
+		// 
+		
 		conjunto.add(1.2); // double -> Double
 		conjunto.add(true); //boolean -> Boolean
 		conjunto.add("Teste"); // String
