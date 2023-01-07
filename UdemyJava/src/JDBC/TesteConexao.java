@@ -1,4 +1,4 @@
-package jdbc;
+package JDBC;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -23,7 +23,7 @@ public class TesteConexao {
 		System.out.println("conexao efetuada com sucesso");
 		conexao.close();
 		
-		
+		 
 		
 	}
 	
