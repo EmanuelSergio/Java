@@ -31,7 +31,6 @@ public class NovaPessoa  {
 		stmt.setString(1, nome);//tudo que entrar como valor aqui, sera setado como string. Impossibilitando um ataque de injeção no  banco
 		
 		
-		
 		stmt.execute();
 		
 		System.out.println("incluido");
