@@ -14,7 +14,6 @@ public class ConsultarPessoas2 {
 		
 Connection conexao = FabricaConexao.getConexao();
 		
-	@SuppressWarnings("resource")
 	Scanner entrada = new Scanner(System.in);
 
 		
@@ -49,7 +48,7 @@ Connection conexao = FabricaConexao.getConexao();
 		
 		
 		
-		
+		entrada.close();
 		stmt.close();
 		
 		
