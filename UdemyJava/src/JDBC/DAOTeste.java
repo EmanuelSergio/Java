@@ -6,11 +6,11 @@ public class DAOTeste {
 		
 		DAO dao = new DAO();
 		
-		String sql = "insert into pessoas (nome, codigo) values (?, ?)";
+		String sql = "INSERT INTO pessoas (nome, codigo) VALUES (?, ?)";
 		
-		System.out.println(dao.incluir(sql, "jao da silb", 1000));
-		System.out.println(dao.incluir(sql, "Sergio Ervin", 1001));
-		System.out.println(dao.incluir(sql, "Lauro Antig", 1002));
+		System.out.println(dao.incluir(sql, "jao da ",50));
+		System.out.println(dao.incluir(sql, "Sergio",51));
+		System.out.println(dao.incluir(sql, "Lauro ",52));
 		
 		
 		

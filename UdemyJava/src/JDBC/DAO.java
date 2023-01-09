@@ -10,13 +10,13 @@ public class DAO {
 	private Connection conexao;
 	
 	
-	public int incluir (String sql, Object...atributos) {
+	public int incluir(String sql, Object... atributos) {
 		try {
 			PreparedStatement stmt = getConexao().prepareStatement(
 					sql, PreparedStatement.RETURN_GENERATED_KEYS);
 			adicionarAtributos(stmt, atributos);
 			
-			if(stmt.executeUpdate()>0) {
+			if(stmt.executeUpdate() > 0) {
 				ResultSet resultado = stmt.getGeneratedKeys();
 				
 				if(resultado.next()) {
@@ -25,12 +25,11 @@ public class DAO {
 			}
 			
 			return -1;
-		} catch (SQLException e) {
+		} catch(SQLException e) {
 			throw new RuntimeException(e);
 		}
-		
-		
 	}
+	
 	
 	public void close() {
 		try {
@@ -54,6 +53,7 @@ public class DAO {
 			}else if (atributo instanceof Integer) {
 				stmt.setInt(indice,(Integer) atributo);
 			}
+			indice++;
 		}
 		
 		
