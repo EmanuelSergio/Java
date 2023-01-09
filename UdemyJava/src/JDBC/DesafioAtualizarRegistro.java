@@ -42,7 +42,7 @@ public static void main(String[] args) throws SQLException{
 		stmt.setString(1, novoNome);
 		stmt.setInt(2, id);
 		stmt.execute();
-		
+		 
 		
 		System.out.println("deu");
 		
