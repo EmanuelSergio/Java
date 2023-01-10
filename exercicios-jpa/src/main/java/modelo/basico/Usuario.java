@@ -9,9 +9,7 @@ public class Usuario {
 	@Id
 	private Long id;
 	
-	
 	private String nome;
-	
 	
 	private String email;
 	
@@ -21,11 +19,12 @@ public class Usuario {
 
 	}
 	
-	public Usuario(Long id, String nome, String email) {
+	public Usuario( String nome, String email) {
+		super();
 		this.nome = nome;
 		this.email = email;
 	}
-
+ 
 	
 	public Long getId() {
 		return id;
