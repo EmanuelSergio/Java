@@ -24,7 +24,7 @@ public class Produto {
 	public Produto() {
 		
 	};
-	
+	 
 	public Produto(Long id, String nome, Double preco) {
 		super();
 		this.nome = nome;
@@ -35,7 +35,8 @@ public class Produto {
 		return id;
 	}
 
-
+	
+	
 	public void setId(Long id) {
 		this.id = id;
 	}
