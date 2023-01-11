@@ -24,8 +24,9 @@ public class ObterUsuarios {
 	
 	for (Usuario usuario : usuarios) {
 		System.out.println("ID => " +usuario.getId()
-		+"\nEmail => " +usuario.getEmail() +"\nNome => " +usuario.getNome());
+		+"\nEmail => " +usuario.getEmail() +"\nNome => " +usuario.getNome() +"\n==========================\n");
 	}
+	 
 	
 	
 	em.close();	
