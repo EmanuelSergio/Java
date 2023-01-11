@@ -16,7 +16,7 @@ public class AlterarUsuario3 {
 		em.getTransaction().begin();
 		
 		Usuario usuario = em.find(Usuario.class, 5L);
-		em.detach(usuario);//tira o usuario do estado gerenciado
+		em.detach(usuario);// <======== tira o objeto do estado gerenciado (garantido que só vai ser alterado com o "merge")
 		
 		
 		
