@@ -23,11 +23,10 @@ public class Memoria {
 	
 	
 	
-	private Memoria() {
-
-	}
-
 	
+	public Memoria(){
+	};
+
 
 	public static Memoria getInstancia() {
 		return instancia;
