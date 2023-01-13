@@ -8,6 +8,8 @@
 		
 		<class>modelo.basico.Usuario</class>
 		<class>modelo.basico.Produtos</class>
+		<class>modelo.umpraum.Assento</class>
+		<class>modelo.umpraum.Cliente</class>
 		
 		<properties>
 			<property name="javax.persistence.jdbc.driver"
@@ -21,7 +23,7 @@
 			
 			<property name="hibernate.dialect"
 				value="org.hibernate.dialect.MySQL57Dialect"/>
-			<property name="hibernate.show_sql" value="false"/>
+			<property name="hibernate.show_sql" value="true"/>
 			<property name="hibernate.format_sql" value="true"/>
 			<property name="hibernate.hbm2ddl.auto" value="update"/>
 		</properties>
