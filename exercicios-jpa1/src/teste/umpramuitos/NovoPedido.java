@@ -22,7 +22,7 @@ public class NovoPedido {
 		.fecharTransacao()
 		.fechar();
 		
-		
+		 
 		
 	}
 	
