@@ -43,6 +43,10 @@ public class DAO<E> {
 		return this;
 	}
 	
+	public E obterPorId(Object id) {
+		return em.find(classe, id);
+	}
+	
 	public DAO<E> incluir(E entidade){
 		em.persist(entidade);
 		return this;

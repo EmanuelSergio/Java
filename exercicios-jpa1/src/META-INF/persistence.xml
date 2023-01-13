@@ -10,6 +10,9 @@
 		<class>modelo.basico.Produtos</class>
 		<class>modelo.umpraum.Assento</class>
 		<class>modelo.umpraum.Cliente</class>
+		<class>modelo.umpramuitos.ItemPedido</class>
+		<class>modelo.umpramuitos.Pedido</class>
+		
 		
 		<properties>
 			<property name="javax.persistence.jdbc.driver"

@@ -1,6 +1,8 @@
-package modelo.umpraum;
+package teste.umpraum;
 
 import infra.DAO;
+import modelo.umpraum.Assento;
+import modelo.umpraum.Cliente;
 
 public class NovoClienteAssento2 {
 
@@ -9,7 +11,7 @@ public class NovoClienteAssento2 {
 		Assento assento = new Assento("49D");
 		Cliente cliente = new Cliente("aria", assento);
 		
-		
+		 
 		
 		DAO<Cliente> dao = new DAO<Cliente>(Cliente.class);
 		

@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -17,6 +18,21 @@ public class Assento {
 	
 	private String nome;
 	
+	@OneToOne(mappedBy = "assento")
+	private Cliente cliente;
+	
+	
+	
+	public Cliente getCliente() {
+		return cliente;
+	}
+
+
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
+
+
 	public Assento() {
 		// TODO Auto-generated constructor stub
 	}
