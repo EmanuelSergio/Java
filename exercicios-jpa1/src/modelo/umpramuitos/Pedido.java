@@ -21,7 +21,8 @@ public class Pedido {
 	@Column(nullable = false)
 	private Date data;
 	
-	@OneToMany(mappedBy = "pedido", fetch = FetchType.EAGER)
+	//esse é o valor default de fecth (...ToMany -> LAZY)
+	@OneToMany(mappedBy = "pedido", fetch = FetchType.LAZY)
 	private List<ItemPedido> itens;
 	
 	public Pedido() {
