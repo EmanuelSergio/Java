@@ -16,7 +16,7 @@ public class NovoTioSobrinho {
 		
 		tia1.getSobrinhos().add(sobrinho1);
 		sobrinho1.getTios().add(tia1);
-		
+	 	
 		tia1.getSobrinhos().add(sobrinho2);
 		sobrinho2.getTios().add(tia1);
 		
