@@ -27,7 +27,7 @@ public class NovoTioSobrinho {
 		sobrinho2.getTios().add(tio2);
 		
 		DAO<Object> dao = new DAO<Object>();
-		
+		 
 		dao.abrirTransacao()
 		.incluir(tia1)
 		.incluir(tio2)
