@@ -28,6 +28,8 @@ public class NovoTioSobrinho {
 		
 		DAO<Object> dao = new DAO<Object>();
 		 
+		dao.abrirTransacao().fechar();
+		
 		dao.abrirTransacao()
 		.incluir(tia1)
 		.incluir(tio2)
