@@ -6,8 +6,10 @@
 	<persistence-unit name="exercicios-jpa">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		
+		<mapping-file>META-INF/consultas.xml</mapping-file>
+		
 		<class>modelo.basico.Usuario</class>
-		<class>modelo.basico.Produtos</class>
+		<class>modelo.basico.Produto</class>
 		<class>modelo.umpraum.Assento</class>
 		<class>modelo.umpraum.Cliente</class>
 		<class>modelo.umpramuitos.ItemPedido</class>
