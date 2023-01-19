@@ -5,7 +5,7 @@ import modelo.muitospramuitos.Ator;
 import modelo.muitospramuitos.Filme;
 
 public class NovoFilmeAtor {
-
+ 
 	public static void main(String[] args) {
 		
 		Filme filmeA = new Filme("Carros 1", 10.0);
