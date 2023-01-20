@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<script>
+
+// Obtém os elementos do HTML
+const openPopupBtn = document.getElementById("open-popup-btn");
+const closePopupBtn = document.getElementById("close-popup-btn");
+const popupContainer = document.getElementById("popup-container");
+
+// Adiciona um evento de click ao botão de abrir o popup
+openPopupBtn.addEventListener("click", function() {
+  popupContainer.classList.remove("hidden"); // Remove a classe "hidden" do container do popup
+});
+
+// Adiciona um evento de click ao botão de fechar o popup
+closePopupBtn.addEventListener("click", function() {
+  popupContainer.classList.add("hidden"); // Adiciona a classe "hidden" ao container do popup
+});
+
+
+</script>
+
+<style>
+
+/* Estilos para o container do popup */
+#popup-container {
+    position: fixed; /* Posição fixa na tela */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa toda a largura da tela */
+    height: 100%; /* Ocupa toda a altura da tela */
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo semi-transparente */
+    z-index: 1; /* Fica acima de todos os outros elementos */
+}
+
+/* Estilos para o conteúdo do popup */
+#popup-content {
+    position: absolute; /* Posição absoluta */
+    top: 50%; /* Centralizado na tela */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza o conteúdo no meio do container */
+    background-color: white; /* Cor de fundo branca */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Oculta o container do popup por padrão */
+.hidden {
+    display: none;
+}
+
+
+</style>
+
+</head>
+<body>
+  
+<!-- Botão para abrir o popup -->
+<button id="open-popup-btn">Open Popup</button>
+
+<!-- Container do popup -->
+<div id="popup-container" class="hidden">
+  <!-- Conteúdo do popup -->
+  <div id="popup-content">
+    <h2>Popup Title</h2>
+    <p>Popup content goes here</p>
+    <!-- Botão para fechar o popup -->
+    <button id="close-popup-btn">Close</button>
+  </div>
+</div>
+
+
+
+</body>
+</html>
