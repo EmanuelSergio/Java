@@ -25,7 +25,7 @@ public class Ator {
 	private List<Filme> filmes = new ArrayList<>();
 
 	public Ator() {
-
+ 
 	}
 
 	public Ator(String nome) {
