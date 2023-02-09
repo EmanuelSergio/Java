@@ -17,7 +17,7 @@ public class ObterFilme {
 		System.out.println(filmes.size());
 		
 		for (Filme filme : filmes) {
-			System.out.println(filme.getNome());
+			System.out.println(filme.getNome() + " => " +filme.getNota());
 			
 			for(Ator ator: filme.getAtores()) {
 				
