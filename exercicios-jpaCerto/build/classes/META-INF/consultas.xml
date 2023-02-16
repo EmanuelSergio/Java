@@ -9,6 +9,23 @@
 </query>
 </named-query>
 
+<named-native-query name="obterMediaGeralDosFilmes" 
+	result-set-mapping="NotaFilmeMap">
 
+<query>
+	select avg(nota) as media from filmes
+</query>
+
+</named-native-query>
+
+<sql-result-set-mapping name="NotaFilmeMap">
+
+<constructor-result target-class="modelo.consulta.NotaFilme">
+<column name="media" class="java.lang.Double"/>
+</constructor-result>
+
+
+
+</sql-result-set-mapping>
 
 </entity-mappings>
