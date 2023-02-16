@@ -19,7 +19,9 @@
 		<class>modelo.muitospramuitos.Filme</class>
 		<class>modelo.muitospramuitos.Sobrinho</class>
 		<class>modelo.muitospramuitos.Tio</class>
-		
+		<class>modelo.composicao.Fornecedor</class>
+		<class>modelo.composicao.Funcionario</class>
+		<class>modelo.composicao.Endereco</class>
 		
 		<properties> 
 			<property name="javax.persistence.jdbc.driver"

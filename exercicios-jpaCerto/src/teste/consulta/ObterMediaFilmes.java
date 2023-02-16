@@ -13,7 +13,7 @@ public class ObterMediaFilmes {
 		
 		System.out.println(nota.getMedia());
 		
-		dao.fechar();
+		dao.fechar(); 
 		
 	}
 	
