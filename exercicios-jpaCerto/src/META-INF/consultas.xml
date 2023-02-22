@@ -11,11 +11,11 @@
 
 <named-native-query name="obterMediaGeralDosFilmes" 
 	result-set-mapping="NotaFilmeMap">
-
+ 
 <query>
 	select avg(nota) as media from filmes
 </query>
-
+ 
 </named-native-query>
 
 <sql-result-set-mapping name="NotaFilmeMap">
