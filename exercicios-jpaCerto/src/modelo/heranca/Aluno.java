@@ -13,7 +13,7 @@ import javax.persistence.InheritanceType;
 @DiscriminatorColumn(name = "tipo" , length = 2, discriminatorType = DiscriminatorType.STRING)
 @DiscriminatorValue("AL")
 public class Aluno {
-
+ 
 	@Id
 	private long matricula;
 	
