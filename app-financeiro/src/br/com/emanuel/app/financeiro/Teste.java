@@ -10,8 +10,8 @@ public class Teste {
 		
 		System.out.println(calc.soma(2,3,4));
 		
-		
-		
+		 System.out.println(calc.getLoggerClass());
+		  
 	}
 	
 }

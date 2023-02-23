@@ -1,6 +1,5 @@
 module app.financeiro {
 	
-	requires java.base;
+	requires java.base;//por padrao ja vem importado
 	requires app.calculo;
-	
 }
