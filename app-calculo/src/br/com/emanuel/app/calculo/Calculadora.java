@@ -10,6 +10,6 @@ public class Calculadora {
 	public double soma(double... nums) {
 		return opAritimeticas.soma(nums);
 	}
-	
+	 
 	
 }
