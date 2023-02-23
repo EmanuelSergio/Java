@@ -25,7 +25,7 @@ public class Contador extends Application{
 		boxBotoes.setSpacing(10);
 		boxBotoes.getChildren().add(botaoDecremento);
 		boxBotoes.getChildren().add(botaoIncremento);
-		
+		 
 		VBox boxPrincipal = new VBox();
 		boxPrincipal.setSpacing(10);
 		boxPrincipal.setAlignment(Pos.CENTER);
