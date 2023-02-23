@@ -5,6 +5,8 @@ import br.com.emanuel.app.logging.Logger;
 
 public class Calculadora {
 
+	private String id = "abc";
+	
 	private OperacoesAritimeticas opAritimeticas = new OperacoesAritimeticas();
 
 	
@@ -12,10 +14,12 @@ public class Calculadora {
 		Logger.info("SALVE QUEBRADA");
 		return opAritimeticas.soma(nums);
 	}
-	 
-	public Class<Logger> getLoggerClass(){
-	return Logger.class;
+
+
+	public String getId() {
+		return id;
 	}
+	
 	
 	
 }
