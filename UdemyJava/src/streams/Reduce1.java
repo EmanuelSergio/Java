@@ -26,7 +26,7 @@ public class Reduce1 {
 		.filter(n->n>5)
 		.reduce(soma)
 		.ifPresent(System.out::println);;	
-	
+	 
 	
 	
 	

@@ -3,7 +3,7 @@ package streams;
 import java.util.Objects;
 
 public class Aluno {
-
+ 
 	final String nome;
 	final double nota;
 	final boolean bomComportamento;

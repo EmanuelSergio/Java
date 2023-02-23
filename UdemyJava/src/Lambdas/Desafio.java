@@ -6,7 +6,7 @@ import java.util.function.UnaryOperator;
 
 public class Desafio {
 public static void main(String[] args) {
-	
+	 
 	Produto p = new Produto("Ipad",3235.89,0.13);
 	//Produto p = new Produto("Ipad",2500.89,0.13);
 	

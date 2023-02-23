@@ -25,7 +25,7 @@ public class Reduce2 {
 			.filter(aprovado)
 			.map(apenasNota)
 			.reduce(somatorio).ifPresent(System.out::println);;
-			
+			 
 			
 			
 		}
