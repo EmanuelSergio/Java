@@ -13,7 +13,7 @@ public class Wizard extends Application {
 	private Scene passo1;
 	private Scene passo2;
 	private Scene passo3;
-	
+	 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		janela = primaryStage;

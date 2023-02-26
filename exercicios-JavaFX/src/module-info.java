@@ -3,4 +3,5 @@ module exerciciosfx {
 
 	
 	opens basico;
+	opens layout;
 }
