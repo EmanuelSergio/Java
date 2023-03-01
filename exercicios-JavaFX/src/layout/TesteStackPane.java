@@ -5,7 +5,7 @@ import javafx.scene.layout.StackPane;
 public class TesteStackPane extends StackPane{
 
 	public TesteStackPane() {
-		
+		 
 		Caixa c1 = new Caixa().comTexto("1");
 		Caixa c2 = new Caixa().comTexto("2");
 		Caixa c3 = new Caixa().comTexto("3");
