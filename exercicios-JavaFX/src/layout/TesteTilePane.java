@@ -18,7 +18,7 @@ public class TesteTilePane extends TilePane {
 			quadrados.add(new Quadrado(i *  10));
 			
 		}
-		
+		 
 		setPadding(new Insets(20));//se afasta dos outros componentes
 		setVgap(10);
 		setHgap(10);
