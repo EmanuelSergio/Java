@@ -1,11 +1,16 @@
 package layout;
 
+import javafx.application.Platform;
 import javafx.scene.layout.StackPane;
 
 public class TesteStackPane extends StackPane{
 
 	public TesteStackPane() {
 		   
+		System.out.println();
+		
+		
+		
 		Caixa c1 = new Caixa().comTexto("1");
 		Caixa c2 = new Caixa().comTexto("2");
 		Caixa c3 = new Caixa().comTexto("3");
@@ -24,7 +29,23 @@ public class TesteStackPane extends StackPane{
 			}
 		});
 		 
+		Thread t =new Thread(() -> {
+			while (true) {
+				try {
+					Thread.sleep(3000);
+					
+					
+					
+					Platform.runLater(()->{
+						getChildren().get(0).toFront();
+					});
+				} catch (Exception e1) {
+				}
+			}
+		});
 		
+		t.setDaemon(true);
+		t.start();
 		
 	}
 	
