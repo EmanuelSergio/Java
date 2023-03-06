@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
 
-<BorderPane xmlns:fx="http://javafx.com/fxml/1">
+
+<GridPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.LoginControlador">
 	<!-- TODO Add Nodes -->
 	
+	<Label text="Seja bem vindo"  
+	GridPane.columnIndex = "0" GridPane.rowIndex="0"></Label>
+	<Label text="E-mail: " 
+	GridPane.columnIndex = "0" GridPane.rowIndex="1"></Label>
+
+	<TextField 
+	GridPane.columnIndex = "1" GridPane.rowIndex="1" fx:id="campoEmail"></TextField>
+
+	
+
+	<Label text="Senha: "
+	GridPane.columnIndex = "0" GridPane.rowIndex="2"></Label>
+	
+	<PasswordField 
+	GridPane.columnIndex = "1" GridPane.rowIndex="2" fx:id="campoSenha"></PasswordField>
+	
+	<Button text="Entrar" 
+	GridPane.columnIndex = "0" GridPane.rowIndex="3" onAction="#entrar">
+	
+	</Button>
 	
 	
 	
 	
-	
-</BorderPane>
+</GridPane>
 
