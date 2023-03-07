@@ -11,6 +11,10 @@
 fx:controller="fxml.LoginControlador"
 	styleClass="login" hgap="15" vgap="15">
 	
+	<GridPane.margin>
+		<Insets top="20" left="20" right="20" bottom="20" />
+	</GridPane.margin>
+	
 	<padding>
 		<Insets left="40" right="40" top="40"/> <!-- esta colocando margem -->
 	</padding>
@@ -24,7 +28,13 @@ fx:controller="fxml.LoginControlador"
 	GridPane.columnIndex = "0" GridPane.rowIndex="0" 
 	styleClass="login-titulo" 
 	GridPane.columnSpan="2" 
-	GridPane.halignment="CENTER"></Label>
+	GridPane.halignment="CENTER">
+	
+	<GridPane.margin>
+		<Insets top="20" bottom="20" />
+	</GridPane.margin>
+	
+	</Label>
 	
 	
 	
@@ -49,6 +59,10 @@ fx:controller="fxml.LoginControlador"
 	 styleClass="login-form-botao" 
 	 GridPane.columnSpan="2" 
 	 GridPane.halignment="CENTER">
+	
+	<GridPane.margin> <!-- ISSO É MARGEN  -->
+		<Insets top="20" bottom="20" />
+	</GridPane.margin>
 	
 	</Button>
 	
