@@ -25,7 +25,7 @@ public class App extends Application {
 			posX = primaryStage.getX() - event.getScreenX();
 			posY = primaryStage.getY() - event.getScreenY();
 		});
-			
+			 
 		principal.setOnMouseDragged(e -> {
 			primaryStage.setX(e.getScreenX() + posX);
 			primaryStage.setY(e.getScreenY() + posY);
