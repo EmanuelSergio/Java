@@ -6,4 +6,5 @@ module exerciciosfx {
 	opens basico;
 	opens layout;
 	opens fxml;
+	opens calculadora;
 }

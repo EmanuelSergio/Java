@@ -21,7 +21,6 @@ public class LoginControlador {
 	
 		boolean emailValido = campoEmail.getText().equals("emanuel@gmail.com");
 		boolean senhaValida = campoSenha.getText().equals("20142015");
-		String arquivoCSS = getClass().getResource("/fxml/Login.css").toExternalForm();
 		
 		if(emailValido && senhaValida) {
 			Notifications.create()
