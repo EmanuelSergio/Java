@@ -1,4 +1,4 @@
-package br.com.estudosSpring.exerciciossb.models;
+package br.com.estudosSpring.exerciciossb.model.entities;
 
 public class Cliente {
 
@@ -7,7 +7,7 @@ public class Cliente {
 	private String cpf;
 
 	
-	
+	 
 	public Cliente(int id, String nome, String cpf) {
 		super();
 		this.id = id;
