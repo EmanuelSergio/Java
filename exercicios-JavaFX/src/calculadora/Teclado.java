@@ -19,7 +19,7 @@ public class Teclado extends GridPane implements Consumer<String> {
 	private Botao botao7 = new Botao("7", this);
 	private Botao botao8 = new Botao("8", this);
 	private Botao botao9 = new Botao("9", this);
-	private Botao botaoMult = new Botao("×", this, "operacao");
+	private Botao botaoMult = new Botao("x", this, "operacao");
 
 	private Botao botao4 = new Botao("4", this);
 	private Botao botao5 = new Botao("5", this);

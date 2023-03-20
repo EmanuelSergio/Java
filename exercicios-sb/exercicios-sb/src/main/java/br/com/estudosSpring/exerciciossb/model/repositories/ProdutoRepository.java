@@ -26,4 +26,3 @@ PagingAndSortingRepository<Produto, Integer>{ //pagingAnd... traz metodos que fa
 //	public Iterable<Produto> searchByNameLike(@Param("nome") String nome);
 //	
 }
- 
