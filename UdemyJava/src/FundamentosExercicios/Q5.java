@@ -6,9 +6,9 @@ public class Q5 {
 
 	public static void main(String[] args) {
 
-String número = JOptionPane.showInputDialog("Informe  o número");
+String numero = JOptionPane.showInputDialog("Informe  o nï¿½mero");
 		
-		int num1 = Integer.parseInt(número);
+		int num1 = Integer.parseInt(numero);
 		int contador=0;
 		
 		for (int i = 2; i < num1; i++) {
@@ -18,10 +18,10 @@ String número = JOptionPane.showInputDialog("Informe  o número");
 		
 		switch (contador) {
 		case 0:
-			System.out.printf("O número %d é um número primo", num1);
+			System.out.printf("O nï¿½mero %d ï¿½ um nï¿½mero primo", num1);
 			break;
 		default:
-			System.out.printf("O número %d não é primo", num1);
+			System.out.printf("O nï¿½mero %d nï¿½o ï¿½ primo", num1);
 
 			break;
 		}
