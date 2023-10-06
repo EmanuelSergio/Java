@@ -1,0 +1,57 @@
+.conteudo {
+	
+	-fx-background-color: black;
+	-fx-font-family: Oswald;	
+	 
+	}
+	 
+	
+.numero{
+	
+	 -fx-text-fill: #fff;
+	-fx-font-size: 28px;
+	
+}
+
+.titulo{
+	
+	-fx-text-fill: #efaa4b;
+	-fx-font-size: 28px;
+	
+	-fx-border: 10px;
+	-fx-border-color: #f8833d;
+	-fx-border-radius: 5px;
+	
+}
+
+
+.botoes{
+	 
+	-fx-background-color:#352d2f;
+		-fx-text-fill: #efaa4b;
+	-fx-font-size: 24px;
+	-fx-min-width:60px;
+	-fx-min-height:60px;
+	-fx-background-radius: 30px;
+	
+}
+	
+.verde{
+	
+	-fx-text-fill: #00ff00;
+}
+
+.vermelha{ 
+	
+	-fx-text-fill:#ff0000;
+}
+
+.laranja{
+	
+	
+	-fx-text-fill:#f8833d;
+	
+	
+}
+
+
